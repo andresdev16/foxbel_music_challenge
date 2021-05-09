@@ -19,7 +19,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "noImplicitAny": false
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false
   },
   "include": [
    "./src/**/*.ts",

@@ -9,6 +9,7 @@ import ArtistPage from './components/ArtistPage/ArtistPage'
 import AlbumPage from './components/AlbumPage/AlbumPage'
 import PlaylistPage from './components/PlaylistPage/PlaylistPage'
 import Header from './components/Header/Header'
+import Navigation from './components/Navigation/Navigation'
 import Footer from './components/Footer/Footer'
 import Player from './components/Player/Player'
 import './App.less'
@@ -23,6 +24,7 @@ const App = () => {
           <Router>
             <Layout>
               <Header />
+              <Navigation />
               <Layout.Content className="site-layout">
                 <div className="site-layout-background">
                   <Switch>
